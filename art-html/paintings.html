@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+
+<head>
+  <!-- Site Title-->
+  <title>绘画</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Stylesheets-->
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CPoppins:300,400,500,700">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<script src="js/headScript.js"> </script>
+
+<body>
+  <div class="preloader">
+    <div>
+      <div class="page-loader-body">
+        <div class="cssload-square">
+          <div class="cssload-square-part cssload-square-green"></div>
+          <div class="cssload-square-part cssload-square-pink"></div>
+          <div class="cssload-square-blend"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 微信弹窗 -->
+  <div class="modal fade myBox" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true" data-bs-dismiss="modal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <img id="self-official-img" src="http://shanwentou.com.cn/theme/main/images/wechat.jpg"
+          alt="陕西文化产业投资控股（集团）有限公司官方微信" style="width: 100%;" />
+      </div>
+    </div>
+  </div>
+  <!-- Page-->
+  <div class="text-center page">
+    <!-- Page-->
+    <!-- Page Header-->
+    <header class="page-header">
+      <!-- RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar-default-with-top-panel" data-layout="rd-navbar-fixed"
+          data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed"
+          data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-fullwidth"
+          data-xxl-layout="rd-navbar-fullwidth" data-lg-device-layout="rd-navbar-fixed"
+          data-xl-device-layout="rd-navbar-fullwidth" data-md-stick-up-offset="90px" data-lg-stick-up-offset="150px"
+          data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
+          <div class="rd-navbar-top-panel rd-navbar-collapse">
+            <div class="rd-navbar-top-panel-inner">
+              <div class="left-side">
+                <div class="group d-flex"><span class="fst-italicFollow">Zh:</span>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a class="icon icon-sm icon-secondary-5 fa fa-weixin" href="#"
+                        onclick="showModal(event,'wechat')"></a>
+                    </li>
+                    <li class="list-inline-item"><a class="icon icon-sm icon-secondary-5 fa fa-weibo" href="#"
+                        onclick="showModal(event,'wb')"></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="center-side">
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand fullwidth-brand"><a class="brand-name" href="index.html"><img
+                      src="images/logo-default-137x56.png" alt="" width="137" height="56" /></a></div>
+              </div>
+              <div class="right-side">
+                <!-- Contact Info-->
+                <div class="contact-info">
+                  <div class="unit align-items-center flex-row unit-spacing-xs">
+                    <div class="unit__left"><span class="icon icon-primary text-middle mdi mdi-phone"></span></div>
+                    <div class="unit__body"><a class="text-middle" href="tel:#">188 8888 8888</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rd-navbar-inner">
+            <!-- RD Navbar Panel-->
+            <div class="rd-navbar-panel">
+              <!-- RD Navbar Toggle-->
+              <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+              <!-- RD Navbar collapse toggle-->
+              <button class="rd-navbar-collapse-toggle"
+                data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></button>
+              <!-- RD Navbar Brand-->
+              <div class="rd-navbar-brand mobile-brand"><a class="brand-name" href="index.html"><img
+                    src="images/logo-default-137x56.png" alt="" width="137" height="56" /></a></div>
+            </div>
+            <div class="rd-navbar-aside-right">
+              <div class="rd-navbar-nav-wrap">
+                <div class="rd-navbar-nav-scroll-holder">
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">首页</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">关于我们</a>
+                    </li>
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="#">服务</a>
+                      <ul class="rd-menu rd-navbar-dropdown">
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="services.html">服务</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="paintings.html">绘画</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">画廊</a>
+                      <ul class="rd-menu rd-navbar-dropdown">
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-gallery.html">网格画廊</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="masonry-gallery.html">网格画廊</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link"
+                            href="full-grid-gallery.html">全屏网格画廊</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">联系我们</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">页面</a>
+                      <ul class="rd-menu rd-navbar-megamenu">
+                        <li class="rd-megamenu-item">
+                          <h6 class="rd-megamenu-title">Pages 1</h6>
+                          <ul class="rd-megamenu-list">
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="our-artists.html">我们的艺术家</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="team-mp.html">团队
+                                MP</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="testimonials.html">客户评价</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="404-page.html">404
+                                页面</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="503-page.html">503
+                                页面</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="maintenance.html">维护</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="faq.html">常见问题</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="rd-megamenu-item">
+                          <h6 class="rd-megamenu-title">Pages 2</h6>
+                          <ul class="rd-megamenu-list">
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="privacy-policy.html">隐私政策</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="site-map.html">网站地图</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="search-results.html">搜索结果</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="careers.html">职业</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="blog.html">博客</a>
+                            </li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="blog-post.html">博客文章</a></li>
+                          </ul>
+                        </li>
+                        <li class="rd-megamenu-item">
+                          <h6 class="rd-megamenu-title">Elements</h6>
+                          <ul class="rd-megamenu-list">
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="buttons.html">Buttons</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="grid.html">Grid</a>
+                            </li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="forms.html">Forms</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="progress-bars.html">Progress bars</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="tabs-and-accordions.html">Tabs and accordions</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="tables.html">Tables</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="typography.html">Typography</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Breadcrumbs & Page title-->
+      <section class="section-lg text-center bg-image breadcrumbs-01">
+        <div class="container container-fluid">
+          <div class="row justify-content-sm-center">
+            <div class="col-sm-12 col-xxl-11">
+              <h2 class="text-white">绘画</h2>
+              <ul class="breadcrumbs-custom">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="services.html">服务</a></li>
+                <li class="active">绘画</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-lg bg-default text-center">
+        <div class="container">
+          <div class="row justify-content-sm-center row-50">
+            <div class="col-md-7">
+              <div class="services-single-box">
+                <div class="services-single-header">
+                  <div class="services-single-title">帆布/亚克力</div>
+                  <div class="services-single-price">¥95</div>
+                </div>
+                <p class="services-single-body">Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor
+                  accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+              </div>
+              <div class="services-single-box">
+                <div class="services-single-header">
+                  <div class="services-single-title">帆布/油</div>
+                  <div class="services-single-price">¥55</div>
+                </div>
+                <p class="services-single-body">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus
+                  suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed
+                  sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+              </div>
+              <div class="services-single-box">
+                <div class="services-single-header">
+                  <div class="services-single-title">帆布/混合技术</div>
+                  <div class="services-single-price">¥15</div>
+                </div>
+                <p class="services-single-body">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                  Curabitur aliquet quam id dui posuere blandit. Pellentesque in ipsum id orci porta dapibus. Mauris
+                  blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada.</p>
+              </div>
+            </div>
+            <div class="col-md-5 position-relative">
+              <!-- RD Mailform-->
+              <form class="rd-mailform text-start" data-form-output="form-output-global" data-form-type="forms"
+                method="post" action="bat/rd-mailform.php">
+                <div class="form-wrap form-wrap-validation form-wrap_icon mdi mdi-account">
+                  <label class="form-label" for="forms-name">您的姓名</label>
+                  <input class="form-input" id="forms-name" type="text" name="name" data-constraints="@Required">
+                </div>
+                <div class="form-wrap form-wrap-validation form-wrap_icon mdi mdi-phone">
+                  <label class="form-label" for="forms-phone">电话</label>
+                  <input class="form-input" id="forms-phone" type="text" name="phone"
+                    data-constraints="@Numeric @Required">
+                </div>
+                <div class="form-wrap form-wrap-validation form-wrap_icon mdi mdi-format-list-bulleted">
+                  <!--Select 2-->
+                  <select class="form-input select-filter" data-placeholder="亚克力绘画" data-constraints="@Required"
+                    data-minimum-results-search="-1" name="select">
+                    <option value="亚克力绘画">亚克力绘画</option>
+                    <option value="油绘画">油绘画</option>
+                    <option value="混合技术绘画">混合技术绘画</option>
+                  </select>
+                </div>
+                <div class="form-wrap form-wrap-validation form-wrap_icon mdi mdi-calendar-text">
+                  <label class="form-label" for="event-date">选择日期</label>
+                  <input class="form-input" id="event-date" type="text" name="calendar" data-time-picker="date">
+                </div>
+                <div class="form-button">
+                  <button class="button button-secondary button-square button-effect-ujarak"
+                    type="submit"><span>预约</span></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Footer-->
+      <div class="footer">
+        <div class="wapper clearfix" style="padding: 20px 0;">
+          <div class="footer-left">
+            <ul style="text-align: center;">
+               <li><a href="http://shanwentou.com.cn/enter/scg/scg.html" target="_blank">集团简介</a></li>
+              <li><a href="http://shanwentou.com.cn/enter/organization/organization.html" target="_blank">组织架构</a></li>
+              <li><a href="http://shanwentou.com.cn/enter/honor/honor.html" target="_blank">荣誉展示</a></li>
+              <li><a href="http://shanwentou.com.cn/enter/contact/contact.html" target="_blank">联系我们</a></li>
+              <li><a href="http://shanwentou.com.cn/installation.html" target="_blank">人才招聘</a></li>
+            </ul>
+            <p style="text-align: center; margin: 20px 0;"><a href="https://beian.miit.gov.cn"
+                target="_blank">陕ICP备14004739号-1</a>
+            </p>
+            <a style="text-align: center;" href="http://shanwentou.com.cn/index.html" target="_blank">陕西文化产业投资控股（集团）有限公司
+            </a>
+          </div>
+          <div class="footer-right">
+            <img src="http://shanwentou.com.cn/theme/main/images/wechat.jpg" alt="陕西文化产业投资控股（集团）有限公司"
+              style="width: 120px;" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <!-- Global Mailform Output-->
+  <div class="snackbars" id="form-output-global"> </div>
+  <!-- Javascript-->
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"> </script>
+</body>
+
+</html>

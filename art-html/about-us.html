@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+
+<head>
+  <!-- Site Title-->
+  <title>关于我们</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Stylesheets-->
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CPoppins:300,400,500,700">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<script src="js/headScript.js"> </script>
+
+<body>
+  <div class="preloader">
+    <div>
+      <div class="page-loader-body">
+        <div class="cssload-square">
+          <div class="cssload-square-part cssload-square-green"></div>
+          <div class="cssload-square-part cssload-square-pink"></div>
+          <div class="cssload-square-blend"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 微信弹窗 -->
+  <div class="modal fade myBox" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true" data-bs-dismiss="modal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <img id="self-official-img" src="http://shanwentou.com.cn/theme/main/images/wechat.jpg"
+          alt="陕西文化产业投资控股（集团）有限公司官方微信" style="width: 100%;" />
+      </div>
+    </div>
+  </div>
+  <!-- Page-->
+  <div class="text-center page">
+    <!-- Page-->
+    <!-- Page Header-->
+    <header class="page-header">
+      <!-- RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar-default-with-top-panel" data-layout="rd-navbar-fixed"
+          data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed"
+          data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-fullwidth"
+          data-xxl-layout="rd-navbar-fullwidth" data-lg-device-layout="rd-navbar-fixed"
+          data-xl-device-layout="rd-navbar-fullwidth" data-md-stick-up-offset="90px" data-lg-stick-up-offset="150px"
+          data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
+          <div class="rd-navbar-top-panel rd-navbar-collapse">
+            <div class="rd-navbar-top-panel-inner">
+              <div class="left-side">
+                <div class="group d-flex"><span class="fst-italicFollow">Zh:</span>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a class="icon icon-sm icon-secondary-5 fa fa-weixin" href="#"
+                        onclick="showModal(event,'wechat')"></a>
+                    </li>
+                    <li class="list-inline-item"><a class="icon icon-sm icon-secondary-5 fa fa-weibo" href="#"
+                        onclick="showModal(event,'wb')"></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="center-side">
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand fullwidth-brand"><a class="brand-name" href="index.html"><img
+                      src="images/logo-default-137x56.png" alt="" width="137" height="56" /></a></div>
+              </div>
+              <div class="right-side">
+                <!-- Contact Info-->
+                <div class="contact-info">
+                  <div class="unit align-items-center flex-row unit-spacing-xs">
+                    <div class="unit__left"><span class="icon icon-primary text-middle mdi mdi-phone"></span></div>
+                    <div class="unit__body"><a class="text-middle" href="tel:#">188 8888 8888</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rd-navbar-inner">
+            <!-- RD Navbar Panel-->
+            <div class="rd-navbar-panel">
+              <!-- RD Navbar Toggle-->
+              <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+              <!-- RD Navbar collapse toggle-->
+              <button class="rd-navbar-collapse-toggle"
+                data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></button>
+              <!-- RD Navbar Brand-->
+              <div class="rd-navbar-brand mobile-brand"><a class="brand-name" href="index.html"><img
+                    src="images/logo-default-137x56.png" alt="" width="137" height="56" /></a></div>
+            </div>
+            <div class="rd-navbar-aside-right">
+              <div class="rd-navbar-nav-wrap">
+                <div class="rd-navbar-nav-scroll-holder">
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">首页</a>
+                    </li>
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="about-us.html">关于我们</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">服务</a>
+                      <ul class="rd-menu rd-navbar-dropdown">
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="services.html">服务</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="paintings.html">绘画</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">艺术</a>
+                      <ul class="rd-menu rd-navbar-dropdown">
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-gallery.html">网格画廊</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="masonry-gallery.html">网格画廊</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link"
+                            href="full-grid-gallery.html">全屏网格画廊</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">联系我们</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Pages</a>
+                      <ul class="rd-menu rd-navbar-megamenu">
+                        <li class="rd-megamenu-item">
+                          <h6 class="rd-megamenu-title">Pages 1</h6>
+                          <ul class="rd-megamenu-list">
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="our-artists.html">我们的艺术家</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="team-mp.html">团队MP</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="testimonials.html">客户评价</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="404-page.html">404页面</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="503-page.html">503页面</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="maintenance.html">维护</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="faq.html">常见问题</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="rd-megamenu-item">
+                          <h6 class="rd-megamenu-title">Pages 2</h6>
+                          <ul class="rd-megamenu-list">
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="privacy-policy.html">隐私政策</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="site-map.html">网站地图</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="search-results.html">搜索结果</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="careers.html">职业</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="blog.html">博客</a>
+                            </li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="blog-post.html">博客文章</a></li>
+                          </ul>
+                        </li>
+                        <li class="rd-megamenu-item">
+                          <h6 class="rd-megamenu-title">Elements</h6>
+                          <ul class="rd-megamenu-list">
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="buttons.html">按钮</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="grid.html">网格</a>
+                            </li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="forms.html">表单</a>
+                            </li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="progress-bars.html">进度条</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="tabs-and-accordions.html">标签和手风琴</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="tables.html">表格</a>
+                            </li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="typography.html">排版</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Breadcrumbs & Page title-->
+      <section class="section-lg text-center bg-image breadcrumbs-01">
+        <div class="container container-fluid">
+          <div class="row justify-content-sm-center">
+            <div class="col-sm-12 col-xxl-11">
+              <h2 class="text-white">关于我们</h2>
+              <ul class="breadcrumbs-custom">
+                <li><a href="index.html">首页</a></li>
+                <li class="active">关于我们</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-md bg-default text-center text-md-start">
+        <div class="container">
+          <div class="row row-50 justify-content-lg-between align-items-md-center">
+            <div class="col-md-6">
+              <figure><img src="images/about-01-546x516.jpg" alt="" width="546" height="516" />
+              </figure>
+            </div>
+            <div class="col-md-6 col-lg-5">
+              <h3>关于我们</h3>
+              <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula
+                elementum sed sit amet dui. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
+                porttitor accumsan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
+              <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada.
+                Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula
+                elementum sed sit amet dui.</p><a
+                class="button button-primary button button-square button-effect-ujarak button-lg" href="#"><span>read
+                  more</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-md bg-half-secondary-3 text-center context-light">
+        <div class="container">
+          <h2>关于我们</h2>
+          <p>Lorem ipsum dolor sit amet, te dicat corrumpit assueverit vix. Has errem aperiam periculis te, vis ei eius
+            phaedrum, has ne oblique accusam scripserit. Te usu velit fuisset, persequeris eloquentiam mei ea, vel et
+            falli legimus. In congue facilisi duo.</p>
+          <div class="row justify-content-sm-center row-50 mt-5">
+            <div class="col-md-6 col-xl-4">
+              <div class="box-custom">
+                <figure class="box-custom-img"><img src="images/press-01-322x441.jpg" alt="" width="322" height="441" />
+                </figure>
+                <div class="box-custom-caption"><a class="subtitle" href="#">Details</a>
+                  <div class="title">艺术趋势</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <div class="box-custom">
+                <figure class="box-custom-img"><img src="images/press-02-322x441.jpg" alt="" width="322" height="441" />
+                </figure>
+                <div class="box-custom-caption"><a class="subtitle" href="#">Details</a>
+                  <div class="title">黑暗：艺术画廊收藏</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <div class="box-custom">
+                <figure class="box-custom-img"><img src="images/press-03-322x441.jpg" alt="" width="322" height="441" />
+                </figure>
+                <div class="box-custom-caption"><a class="subtitle" href="#">Details</a>
+                  <div class="title">ART设计周</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-lg bg-secondary-3 text-center">
+        <div class="container">
+          <div class="row row-50">
+            <div class="col-12">
+              <h2>人们怎么说</h2>
+            </div>
+            <div class="col-sm-12">
+              <div class="box-outline box-outline-fullwidth box-outline__mod-1">
+                <div class="quote-carousel-wrap">
+                  <!-- Slick Carousel-->
+                  <div class="slick-slider carousel-parent" data-arrows="false" data-loop="true" data-dots="false"
+                    data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel">
+                    <div class="item">
+                      <div class="quote-center">
+                        <div class="quote-center-title">
+                          <h4>大气的氛围和许多令人印象深刻的绘画</h4>
+                        </div>
+                        <p class="quote-center-body">
+                          <q>My friend is an art connoisseur, so she brought me here and I'm amazed. I got to see so
+                            many different types of beautiful art in one place, so I'm thrilled and I feel like Art
+                            Gallery helps me develop my taste for art. I think it's nice that there's a big range of
+                            prices and I'm considering buying a painting here.</q>
+                        </p>
+                        <div class="quote-center-cite">
+                          <cite>安娜布朗</cite><span>程序员</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="quote-center">
+                        <div class="quote-center-title">
+                          <h4>整个州最好的艺术画廊！</h4>
+                        </div>
+                        <p class="quote-center-body">
+                          <q>I've been looking for art for quite some time and I went to your gallery last month. It's a
+                            nice space, easy to walk around and some of the artists' work is very, very nice. I've been
+                            very lucky today, I've bought four pieces. The pieces are from different coutnries. I'd
+                            recommend everyone to come here.</q>
+                        </p>
+                        <div class="quote-center-cite">
+                          <cite>简内德瑞</cite><span>办公室经理</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="quote-center">
+                        <div class="quote-center-title">
+                          <h4>各种艺术风格和绘画</h4>
+                        </div>
+                        <p class="quote-center-body">
+                          <q>I love your exhibitions; there are many different styles of paintings and a big range of
+                            types of art with affordable prices. Seeing so much variety of art is exciting and there's
+                            something for everyone. I've never been to a gallery before, but after visiting your gallery
+                            I fell in love with fine art.</q>
+                        </p>
+                        <div class="quote-center-cite">
+                          <cite>布莱恩亚当斯</cite><span>记者</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="quote-center">
+                        <div class="quote-center-title">
+                          <h4>你有一个伟大的艺术家团队</h4>
+                        </div>
+                        <p class="quote-center-body">
+                          <q>我的一个亲戚邀请我去你的最近一次展览，我必须说我很高兴看到很多由年轻而有抱负的艺术家完成的精彩绘画。我认为每个真正的艺术爱好者都应该至少参观一次你的画廊。</q>
+                        </p>
+                        <div class="quote-center-cite">
+                          <cite>玛丽威尔逊</cite><span>顶级模特</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slick-slider" id="child-carousel" data-for=".carousel-parent" data-arrows="false"
+                    data-loop="true" data-dots="false" data-swipe="true" data-center-mode="true"
+                    data-sm-center-mode="true" data-md-center-mode="true" data-lg-center-mode="true"
+                    data-center-padding="0.50" data-items="1" data-sm-items="1" data-md-items="3" data-lg-items="3"
+                    data-xl-items="3" data-slide-to-scroll="1">
+                    <div class="item">
+                      <figure><img class="rounded-circle" src="images/about-04-111x111.jpg" alt="" width="111"
+                          height="111" />
+                      </figure>
+                    </div>
+                    <div class="item">
+                      <figure><img class="rounded-circle" src="images/about-02-111x111.jpg" alt="" width="111"
+                          height="111" />
+                      </figure>
+                    </div>
+                    <div class="item">
+                      <figure><img class="rounded-circle" src="images/about-05-111x111.jpg" alt="" width="111"
+                          height="111" />
+                      </figure>
+                    </div>
+                    <div class="item">
+                      <figure><img class="rounded-circle" src="images/about-03-111x111.jpg" alt="" width="111"
+                          height="111" />
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-md bg-default">
+        <div class="container">
+          <div class="row justify-content-sm-center row-50">
+            <div class="col-12">
+              <h2>我们的艺术家</h2>
+            </div>
+            <!--team member 1-->
+            <div class="col-md-6 col-lg-4">
+              <div class="team-box box-outline box-outline-about">
+                <div class="team-image-box"><img src="images/team-01-295x282.jpg" alt="" width="295" height="282" />
+                  <div class="team-image-caption">
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><a class="icon-sm icon-white fa-weixin icon" href="#"></a></li>
+                      <li class="list-inline-item"><a class="icon-sm icon-white fa-weibo icon" href="#"></a></li>
+                      <li class="list-inline-item"><a class="icon-sm icon-white fa-envelope-o icon" href="#"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="team-caption"><a class="link team-title" href="team-mp.html">Theresa Smith</a><span>Fine
+                    Artist</span></div>
+              </div>
+            </div>
+            <!--team member 2-->
+            <div class="col-md-6 col-lg-4">
+              <div class="team-box box-outline box-outline-about">
+                <div class="team-image-box"><img src="images/team-02-295x282.jpg" alt="" width="295" height="282" />
+                  <div class="team-image-caption">
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><a class="icon-sm icon-white fa-weixin icon" href="#"></a></li>
+                      <li class="list-inline-item"><a class="icon-sm icon-white fa-weibo icon" href="#"></a></li>
+                      <li class="list-inline-item"><a class="icon-sm icon-white fa-envelope-o icon" href="#"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="team-caption"><a class="link team-title" href="team-mp.html">Regina Mills</a><span>画家</span>
+                </div>
+              </div>
+            </div>
+            <!--team member 3-->
+            <div class="col-md-6 col-lg-4">
+              <div class="team-box box-outline box-outline-about">
+                <div class="team-image-box"><img src="images/team-03-295x282.jpg" alt="" width="295" height="282" />
+                  <div class="team-image-caption">
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><a class="icon-sm icon-white fa-weixin icon" href="#"></a></li>
+                      <li class="list-inline-item"><a class="icon-sm icon-white fa-weibo icon" href="#"></a></li>
+                      <li class="list-inline-item"><a class="icon-sm icon-white fa-envelope-o icon" href="#"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="team-caption"><a class="link team-title" href="team-mp.html">Sandra
+                    Adams</a><span>雕塑家</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Footer-->
+      <div class="footer">
+        <div class="wapper clearfix" style="padding: 20px 0;">
+          <div class="footer-left">
+            <ul style="text-align: center;">
+               <li><a href="http://shanwentou.com.cn/enter/scg/scg.html" target="_blank">集团简介</a></li>
+              <li><a href="http://shanwentou.com.cn/enter/organization/organization.html" target="_blank">组织架构</a></li>
+              <li><a href="http://shanwentou.com.cn/enter/honor/honor.html" target="_blank">荣誉展示</a></li>
+              <li><a href="http://shanwentou.com.cn/enter/contact/contact.html" target="_blank">联系我们</a></li>
+              <li><a href="http://shanwentou.com.cn/installation.html" target="_blank">人才招聘</a></li>
+            </ul>
+            <p style="text-align: center; margin: 20px 0;"><a href="https://beian.miit.gov.cn"
+                target="_blank">陕ICP备14004739号-1</a>
+            </p>
+            <a style="text-align: center;" href="http://shanwentou.com.cn/index.html" target="_blank">陕西文化产业投资控股（集团）有限公司
+            </a>
+          </div>
+          <div class="footer-right">
+            <img src="http://shanwentou.com.cn/theme/main/images/wechat.jpg" alt="陕西文化产业投资控股（集团）有限公司"
+              style="width: 120px;" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <!-- Global Mailform Output-->
+  <div class="snackbars" id="form-output-global"> </div>
+  <!-- Javascript-->
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"> </script>
+</body>
+
+</html>

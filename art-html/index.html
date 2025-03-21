@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+
+<head>
+  <!-- Site Title-->
+  <title>首页</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Stylesheets-->
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CPoppins:300,400,500,700">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<script src="js/headScript.js"> </script>
+
+<body>
+  <div class="preloader">
+    <div>
+      <div class="page-loader-body">
+        <div class="cssload-square">
+          <div class="cssload-square-part cssload-square-green"></div>
+          <div class="cssload-square-part cssload-square-pink"></div>
+          <div class="cssload-square-blend"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 微信弹窗 -->
+  <div class="modal fade myBox" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true" data-bs-dismiss="modal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <img id="self-official-img" src="http://shanwentou.com.cn/theme/main/images/wechat.jpg"
+          alt="陕西文化产业投资控股（集团）有限公司官方微信" style="width: 100%;" />
+      </div>
+    </div>
+  </div>
+  <!-- Page-->
+  <div class="text-center page">
+    <!-- Page-->
+    <!-- Page Header-->
+    <header class="page-header">
+      <!-- RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar-default-with-top-panel" data-layout="rd-navbar-fixed"
+          data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed"
+          data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-fullwidth"
+          data-xxl-layout="rd-navbar-fullwidth" data-lg-device-layout="rd-navbar-fixed"
+          data-xl-device-layout="rd-navbar-fullwidth" data-md-stick-up-offset="90px" data-lg-stick-up-offset="150px"
+          data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
+          <div class="rd-navbar-top-panel rd-navbar-collapse">
+            <div class="rd-navbar-top-panel-inner">
+              <div class="left-side">
+                <div class="group d-flex"><span class="fst-italicFollow">Zh:</span>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a class="icon icon-sm icon-secondary-5 fa fa-weixin" href="#"
+                        onclick="showModal(event,'wechat')"></a>
+                    </li>
+                    <li class="list-inline-item"><a class="icon icon-sm icon-secondary-5 fa fa-weibo" href="#"
+                        onclick="showModal(event,'wb')"></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="center-side">
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand fullwidth-brand"><a class="brand-name" href="index.html"><img
+                      src="images/logo-default-137x56.png" alt="" width="137" height="56" /></a></div>
+              </div>
+              <div class="right-side">
+                <!-- Contact Info-->
+                <div class="contact-info">
+                  <div class="unit align-items-center flex-row unit-spacing-xs">
+                    <div class="unit__left"><span class="icon icon-primary text-middle mdi mdi-phone"></span></div>
+                    <div class="unit__body"><a class="text-middle" href="tel:#">188 8888 8888</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rd-navbar-inner">
+            <!-- RD Navbar Panel-->
+            <div class="rd-navbar-panel">
+              <!-- RD Navbar Toggle-->
+              <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+              <!-- RD Navbar collapse toggle-->
+              <button class="rd-navbar-collapse-toggle"
+                data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></button>
+              <!-- RD Navbar Brand-->
+              <div class="rd-navbar-brand mobile-brand"><a class="brand-name" href="index.html"><img
+                    src="images/logo-default-137x56.png" alt="" width="137" height="56" /></a></div>
+            </div>
+            <div class="rd-navbar-aside-right">
+              <div class="rd-navbar-nav-wrap">
+                <div class="rd-navbar-nav-scroll-holder">
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">首页</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">关于我们</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">服务</a>
+                      <ul class="rd-menu rd-navbar-dropdown">
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="services.html">服务</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="paintings.html">绘画</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">艺术</a>
+                      <ul class="rd-menu rd-navbar-dropdown">
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-gallery.html">网格画廊</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="masonry-gallery.html">网格画廊</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link"
+                            href="full-grid-gallery.html">全屏网格画廊</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">联系我们</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Pages</a>
+                      <ul class="rd-menu rd-navbar-megamenu">
+                        <li class="rd-megamenu-item">
+                          <h6 class="rd-megamenu-title">Pages 1</h6>
+                          <ul class="rd-megamenu-list">
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="our-artists.html">我们的艺术家</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="team-mp.html">团队MP</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="testimonials.html">客户评价</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="404-page.html">404页面</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="503-page.html">503页面</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="maintenance.html">维护</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="faq.html">常见问题</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="rd-megamenu-item">
+                          <h6 class="rd-megamenu-title">Pages 2</h6>
+                          <ul class="rd-megamenu-list">
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="privacy-policy.html">隐私政策</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="site-map.html">网站地图</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="search-results.html">搜索结果</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="careers.html">职业</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="blog.html">博客</a>
+                            </li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="blog-post.html">博客文章</a></li>
+                          </ul>
+                        </li>
+                        <li class="rd-megamenu-item">
+                          <h6 class="rd-megamenu-title">Elements</h6>
+                          <ul class="rd-megamenu-list">
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="buttons.html">按钮</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="grid.html">网格</a>
+                            </li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="forms.html">表单</a>
+                            </li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="progress-bars.html">进度条</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="tabs-and-accordions.html">标签和手风琴</a></li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="tables.html">表格</a>
+                            </li>
+                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
+                                href="typography.html">排版</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="section section-layout">
+        <div class="container-wide bg-image bg-image-full" style="background-image: url(images/bg-image-08.jpg);">
+          <div class="row justify-content-sm-center row-custom">
+            <div class="col-md-12 col-xl-7">
+              <div class="section-layout-main">
+                <div class="section-main-content">
+                  <div class="container text-md-start">
+                    <h1>艺术展馆</h1>
+                    <div class="slider-subtitle-group">
+                      <div class="decoration-line"></div>
+                      <h4>展示最好的作品</h4>
+                      <h3>现代艺术</h3>
+                    </div><a class="button button-effect-ujarak button-lg button-primary-2 button-square"
+                      href="#"><span>了解更多</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-xl-5 d-xl-flex">
+              <div class="row justify-content-sm-center" style="flex: 1 1 auto">
+                <div class="section-layout-aside">
+                  <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><span
+                        class="fw-bold">活动</span></a></div>
+                  <div class="section-layout-aside__item"><a class="thumb-modern" href="#"><span
+                        class="fw-bold">展览</span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About us-->
+      <section class="section section-md bg-default text-center text-md-start">
+        <div class="container-wide">
+          <div class="row row-50 justify-content-sm-center overflow-hidden">
+            <div class="col-lg-6 col-xl-7 wow fadeInUp" data-wow-delay=".2s">
+              <div class="jp-video-init">
+                <div class="jp-video jp-video-single">
+                  <div class="jp-type-playlist">
+                    <!-- Hidden playlist for script-->
+                    <ul class="jp-player-list">
+                      <li class="jp-player-list-item" data-jp-m4v="video/video.mp4" data-jp-title="local video"
+                        data-jp-poster="images/video-bg.jpg"></li>
+                    </ul>
+                    <!-- container in which our video will be played-->
+                    <div class="jp-jplayer"></div>
+                    <!-- main containers for our controls-->
+                    <div class="jp-gui">
+                      <div class="jp-interface">
+                        <div class="jp-controls-holder">
+                          <!-- play and pause buttons--><a class="jp-play mdi mdi-play" href="javascript:;"
+                            tabindex="1"></a><a class="jp-pause mdi mdi-pause" href="javascript:;" tabindex="1"></a>
+                          <!--span.separator.sep-1-->
+                          <!-- progress bar-->
+                          <!--.jp-progress
+                            .jp-seek-bar
+                              .jp-play-bar
+                                span
+                            -->
+                          <!--.jp-time-wrapper
+                            // time notifications
+                            .jp-current-time
+                            span.time-sep /
+                            .jp-duration
+                            -->
+                          <!--span.separator.sep-2-->
+                          <!-- mute / unmute toggle-->
+                          <!--a.jp-mute(href='javascript:;', tabindex='1', title='mute') mute-->
+                          <!--a.jp-unmute(href='javascript:;', tabindex='1', title='unmute') unmute-->
+                          <!-- volume bar-->
+                          <!--.jp-volume-bar
+                            .jp-volume-bar-value
+                              span.handle
+                            -->
+                          <!--span.separator.sep-2-->
+                          <!-- full screen toggle-->
+                          <!--a.jp-full-screen(href='javascript:;', tabindex='1', title='full screen') full screen-->
+                          <!--a.jp-restore-screen(href='javascript:;', tabindex='1', title='restore screen') restore screen-->
+                        </div>
+                        <!-- end jp-controls-holder-->
+                      </div>
+                      <!-- end jp-interface-->
+                    </div>
+                    <!-- end jp-gui-->
+                    <!-- unsupported message-->
+                    <div class="jp-playlist">
+                      <ul>
+                        <li></li>
+                      </ul>
+                    </div>
+                    <div class="jp-no-solution"><span>需要更新</span>如果视频不支持，这里会显示一条消息。如果愿意，可以在这里使用Flash替代。</div>
+                    <!-- end jp_container_1-->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-5 d-flex wow fadeInDown" data-wow-delay=".3s">
+              <div class="bg-secondary-3 section-wrap-content-var-1">
+                <div class="section-wrap-content-var-1-inner">
+                  <h2>关于我们</h2>
+                  <p>艺术展馆是该国最著名的艺术博物馆之一，每年欢迎超过50万游客。</p>
+                  <div class="group d-flex">
+                    <dl class="list-desc">
+                      <dt>工作日:</dt>
+                      <dd><span>9:00–18:00</span></dd>
+                    </dl>
+                    <dl class="list-desc">
+                      <dt>周末:</dt>
+                      <dd><span>10:00–17:00</span></dd>
+                    </dl>
+                  </div><a class="button button-effect-ujarak button-lg button-secondary-outline-2 button-square"
+                    href="about-us.html"><span>购票</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio-->
+      <section class="section section-md bg-default text-center text-md-start">
+        <div class="container-wide">
+          <div class="row row-10 align-items-center">
+            <div class="col-md-6">
+              <h3>艺术家作品</h3>
+            </div>
+            <div class="col-md-6 text-md-end"><a class="heading-link link-gray-darker" href="grid-gallery.html">查看所有
+                作品</a></div>
+          </div>
+          <hr>
+          <div class="isotope-wrap">
+            <!-- Isotope Content-->
+            <div class="row isotope" data-isotope-layout="masonry" data-isotope-group="gallery"
+              data-lightgallery="group">
+              <div class="col-12 col-md-6 col-lg-3 grid-sizer"></div>
+              <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInLeft" data-filter="Category 1"
+                data-wow-delay=".1s"><a class="portfolio-item thumbnail-classic"
+                  href="images/grid-gallery-11-1200x800_original.jpg" data-lightgallery="item">
+                  <figure><img src="images/home-portfolio-01-420x584.jpg" alt="" width="420" height="584" />
+                  </figure>
+                  <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span
+                      class="icon mdi-eye">220</span></div>
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInDown" data-filter="Category 1"
+                data-wow-delay=".2s"><a class="portfolio-item thumbnail-classic"
+                  href="images/grid-gallery-10-562x800_original.jpg" data-lightgallery="item">
+                  <figure><img src="images/home-portfolio-02-420x278.jpg" alt="" width="420" height="278" />
+                  </figure>
+                  <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span
+                      class="icon mdi-eye">220</span></div>
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInDown" data-filter="Category 1"
+                data-wow-delay=".4s"><a class="portfolio-item thumbnail-classic"
+                  href="images/grid-gallery-9-1200x1200_original.jpg" data-lightgallery="item">
+                  <figure><img src="images/home-portfolio-03-420x584.jpg" alt="" width="420" height="584" />
+                  </figure>
+                  <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span
+                      class="icon mdi-eye">220</span></div>
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInRight" data-filter="Category 1"
+                data-wow-delay=".5s"><a class="portfolio-item thumbnail-classic"
+                  href="images/grid-gallery-4-666x800_original.jpg" data-lightgallery="item">
+                  <figure><img src="images/home-portfolio-04-420x278.jpg" alt="" width="420" height="278" />
+                  </figure>
+                  <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span
+                      class="icon mdi-eye">220</span></div>
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInUp" data-filter="Category 1"
+                data-wow-delay=".3s"><a class="portfolio-item thumbnail-classic"
+                  href="images/grid-gallery-12-526x800_original.jpg" data-lightgallery="item">
+                  <figure><img src="images/home-portfolio-05-420x278.jpg" alt="" width="420" height="278" />
+                  </figure>
+                  <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span
+                      class="icon mdi-eye">220</span></div>
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInRight" data-filter="Category 1"
+                data-wow-delay=".6s"><a class="portfolio-item thumbnail-classic"
+                  href="images/grid-gallery-10-1200x800_original.jpg" data-lightgallery="item">
+                  <figure><img src="images/home-portfolio-06-420x278.jpg" alt="" width="420" height="278" />
+                  </figure>
+                  <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span
+                      class="icon mdi-eye">220</span></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Prices & testimonials-->
+      <section class="section section-md bg-default text-center text-md-start">
+        <div class="container-wide">
+          <div class="row justify-content-sm-center row-75 overflow-hidden">
+            <div class="col-xl-6 wow fadeInUp" data-wow-delay=".2s">
+              <div class="tabs-custom tabs-horizontal tabs-complex" id="tabs-2">
+                <div class="tabs-complex-title">
+                  <h3>我们的价格</h3>
+                  <!-- Nav tabs-->
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item"><a class="nav-link active" href="#tabs-2-1" data-bs-toggle="tab">绘画</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#tabs-2-2" data-bs-toggle="tab">平面设计</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tabs-2-3" data-bs-toggle="tab">雕塑</a></li>
+                  </ul>
+                </div>
+                <hr>
+                <!-- Tab panes-->
+                <div class="tab-content">
+                  <div class="tab-pane fadeInDown animated active" id="tabs-2-1">
+                    <div class="services-single-box">
+                      <div class="services-single-header">
+                        <div class="services-single-title">油画</div>
+                        <div class="services-single-price">¥95</div>
+                      </div>
+                      <p class="services-single-body">油画是最受欢迎的艺术家、他们的客户和我们的画廊游客。这种类型的绘画对您的健康是安全的，并且不会受到热量的影响，同时表达出广泛的色彩。
+                      </p>
+                    </div>
+                    <div class="services-single-box">
+                      <div class="services-single-header">
+                        <div class="services-single-title">油画</div>
+                        <div class="services-single-price">¥55</div>
+                      </div>
+                      <p class="services-single-body">
+                        作为自古以来艺术家使用的基本绘画材料，油画即使在今天也提供了巨大的可能性。它的透明性、不透明性和半透明性允许创造最引人注目的色彩融合。</p>
+                    </div>
+                    <div class="services-single-box">
+                      <div class="services-single-header">
+                        <div class="services-single-title">油画</div>
+                        <div class="services-single-price">¥15</div>
+                      </div>
+                      <p class="services-single-body">混合媒体绘画是一种结合不同绘画和素描材料和方法的绘画，而不是只使用一种材料。这种艺术作品因其艺术家的创造力而越来越受欢迎。</p>
+                    </div>
+                  </div>
+                  <div class="tab-pane fadeInDown animated" id="tabs-2-2">
+                    <div class="services-single-box">
+                      <div class="services-single-header">
+                        <div class="services-single-title">纸/墨水</div>
+                        <div class="services-single-price">¥35</div>
+                      </div>
+                      <p class="services-single-body">墨水画在二十世纪非常受欢迎，今天它们作为#1装饰品为那些买不起大或全彩色绘画的房主和办公室服务。</p>
+                    </div>
+                    <div class="services-single-box">
+                      <div class="services-single-header">
+                        <div class="services-single-title">纸/水彩</div>
+                        <div class="services-single-price">¥28</div>
+                      </div>
+                      <p class="services-single-body">水彩是我们在学校学到的#1绘画技巧。随着绘画设备和材料的开发，这种类型比任何其他类型的绘画都更加多样化。</p>
+                    </div>
+                    <div class="services-single-box">
+                      <div class="services-single-header">
+                        <div class="services-single-title">纸/铅笔</div>
+                        <div class="services-single-price">¥21</div>
+                      </div>
+                      <p class="services-single-body">如今，铅笔不仅用于制作未来的素描，还用于创作绝对令人惊叹的艺术品，这些艺术品可以搭配任何室内或艺术收藏。</p>
+                    </div>
+                  </div>
+                  <div class="tab-pane fadeInDown animated" id="tabs-2-3">
+                    <div class="services-single-box">
+                      <div class="services-single-header">
+                        <div class="services-single-title">大理石</div>
+                        <div class="services-single-price">¥48</div>
+                      </div>
+                      <p class="services-single-body">大理石雕塑是基于石雕的最古老的创意艺术品，这种活动自人类诞生以来一直可用。这种石头允许创造令人惊叹且持久的雕塑。</p>
+                    </div>
+                    <div class="services-single-box">
+                      <div class="services-single-header">
+                        <div class="services-single-title">钢</div>
+                        <div class="services-single-price">¥26</div>
+                      </div>
+                      <p class="services-single-body">钢雕塑是您想要为您的家或办公室增添吸引力且精致的选择。此外，这种材料是可持续的，并且非常适合任何室内/室外。</p>
+                    </div>
+                    <div class="services-single-box">
+                      <div class="services-single-header">
+                        <div class="services-single-title">丙烯酸</div>
+                        <div class="services-single-price">¥42</div>
+                      </div>
+                      <p class="services-single-body">
+                        丙烯酸雕塑是基于丙烯酸技术的活动。这种材料可以用于对象和事物，但我们所有人都在使用，但当涉及到雕塑时，它允许创造令人惊叹且持久的雕塑。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 wow fadeInDown" data-wow-delay=".3s">
+              <h3>客户评价</h3>
+              <hr>
+              <div class="quote-carousel-wrap-vertical">
+                <!-- Slick Carousel-->
+                <div class="slick-slider carousel-parent" data-arrows="false" data-loop="true" data-dots="false"
+                  data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel"
+                  data-vertical="false" data-xs-vertical="false" data-sm-vertical="true" data-md-vertical="true"
+                  data-lg-vertical="true">
+                  <div class="item">
+                    <div class="quote-box quote-box-mod-1">
+                      <div class="quote-box-header"><img src="images/quote-img-01-49x45.png" alt="" width="49"
+                          height="45" />
+                        <h4 class="quote-box-title"><a class="link link-gray-darker" href="#">伟大的氛围和许多令人印象深刻的绘画</a></h4>
+                      </div>
+                      <div class="quote-box-body">
+                        <q>我的朋友是一位艺术鉴赏家，所以她带我来了这里，我感到很惊讶。我看到了这么多不同类型的美丽艺术，所以我感到很兴奋，我觉得艺术画廊很棒，有各种各样的价格，我正在考虑在这里买一幅画。</q>
+                      </div>
+                      <div class="quote-box-footer">
+                        <div class="quote-box-cite">
+                          <cite>安娜·布朗</cite><span>程序员</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="quote-box quote-box-mod-1">
+                      <div class="quote-box-header"><img src="images/quote-img-01-49x45.png" alt="" width="49"
+                          height="45" />
+                        <h4 class="quote-box-title"><a class="link link-gray-darker" href="#">最好的艺术画廊</a></h4>
+                      </div>
+                      <div class="quote-box-body">
+                        <q>我一直在寻找艺术一段时间了，上个月我去你的画廊了。这是一个很棒的空间，很容易四处走动，一些艺术家的作品非常棒。我很幸运，今天我买了四件作品。这些作品来自不同的国家。我推荐每个人都来这里。这就是我喜欢你画廊的地方。</q>
+                      </div>
+                      <div class="quote-box-footer">
+                        <div class="quote-box-cite">
+                          <cite>简·内德瑞</cite><span>经理</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="quote-box quote-box-mod-1">
+                      <div class="quote-box-header"><img src="images/quote-img-01-49x45.png" alt="" width="49"
+                          height="45" />
+                        <h4 class="quote-box-title"><a class="link link-gray-darker" href="#">你有一个很棒的艺术家团队</a></h4>
+                      </div>
+                      <div class="quote-box-body">
+                        <q>我的一个亲戚邀请我去你的最近一次展览，我必须说我很高兴看到很多由年轻而有抱负的艺术家完成的令人惊叹的绘画。我认为每个真正的艺术爱好者都应该至少一次访问你的画廊。</q>
+                      </div>
+                      <div class="quote-box-footer">
+                        <div class="quote-box-cite">
+                          <cite>玛丽·威尔逊</cite><span>顶级模特</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="quote-box quote-box-mod-1">
+                      <div class="quote-box-header"><img src="images/quote-img-01-49x45.png" alt="" width="49"
+                          height="45" />
+                        <h4 class="quote-box-title"><a class="link link-gray-darker" href="#">各种各样的艺术风格和绘画</a></h4>
+                      </div>
+                      <div class="quote-box-body">
+                        <q>我非常喜欢你的展览；有很多不同类型的绘画，而且价格也很合理。看到这么多不同类型的艺术真是令人兴奋，而且每个人都能找到适合自己的东西。我以前从来没有去过画廊，但参观了你的画廊后，我深深爱上了艺术。</q>
+                      </div>
+                      <div class="quote-box-footer">
+                        <div class="quote-box-cite">
+                          <cite>布莱恩·亚当斯</cite><span>记者</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slick-slider" id="child-carousel" data-for=".carousel-parent" data-arrows="false"
+                  data-loop="true" data-dots="false" data-swipe="true" data-center-mode="true"
+                  data-sm-center-mode="true" data-md-center-mode="true" data-lg-center-mode="true"
+                  data-center-padding="0.50" data-items="3" data-xs-items="3" data-sm-items="3" data-md-items="3"
+                  data-lg-items="3" data-xl-items="3" data-slide-to-scroll="1" data-vertical="false"
+                  data-xs-vertical="false" data-sm-vertical="true" data-md-vertical="true" data-lg-vertical="true">
+                  <div class="item">
+                    <figure><img class="rounded-circle" src="images/about-04-111x111.jpg" alt="" width="111"
+                        height="111" />
+                    </figure>
+                  </div>
+                  <div class="item">
+                    <figure><img class="rounded-circle" src="images/about-02-111x111.jpg" alt="" width="111"
+                        height="111" />
+                    </figure>
+                  </div>
+                  <div class="item">
+                    <figure><img class="rounded-circle" src="images/about-03-111x111.jpg" alt="" width="111"
+                        height="111" />
+                    </figure>
+                  </div>
+                  <div class="item">
+                    <figure><img class="rounded-circle" src="images/about-05-111x111.jpg" alt="" width="111"
+                        height="111" />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Blog-->
+      <section class="section section-md bg-default text-center text-md-start">
+        <div class="container-wide">
+          <h3>我们的博客</h3>
+          <hr>
+          <!-- Owl Carousel-->
+          <div class="owl-carousel owl-carousel-stagePadding" data-items="1" data-md-items="2" data-xxl-items="3"
+            data-dots="false" data-nav="true" data-stage-padding="0" data-xl-stage-padding="100"
+            data-xxl-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="false">
+            <div class="post-box post-box-minimal post-box-horizontal wow fadeInDown" data-wow-delay=".1s"><a
+                class="post-box-image" href="#">
+                <figure><img src="images/home-blog-01-460x369.jpg" alt="" width="460" height="369" />
+                </figure>
+              </a>
+              <div class="post-box-minimal-caption">
+                <div class="post-box-minimal-caption-inner">
+                  <h5 class="post-box-minimal-title"><a href="#">如何从你的艺术中创建一个成功的业务</a></h5>
+                  <div class="post-box-minimal-meta-bottom">
+                    <time class="post-box-icon mdi mdi-clock" datetime="2024">October 12, 2024</time>
+                    <p><a class="post-box-icon mdi mdi-thumb-up-outline" href="#">78</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post-box post-box-minimal post-box-horizontal wow fadeInUp" data-wow-delay=".25s"><a
+                class="post-box-image" href="#">
+                <figure><img src="images/home-blog-02-460x369.jpg" alt="" width="460" height="369" />
+                </figure>
+              </a>
+              <div class="post-box-minimal-caption">
+                <div class="post-box-minimal-caption-inner">
+                  <h5 class="post-box-minimal-title"><a href="#">谷歌推出了50个博物馆的虚拟之旅</a></h5>
+                  <div class="post-box-minimal-meta-bottom">
+                    <time class="post-box-icon mdi mdi-clock" datetime="2024">October 26, 2024</time>
+                    <p><a class="post-box-icon mdi mdi-thumb-up-outline" href="#">15</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post-box post-box-minimal post-box-horizontal wow fadeInDown" data-wow-delay=".3s"><a
+                class="post-box-image" href="#">
+                <figure><img src="images/home-blog-03-460x369.jpg" alt="" width="460" height="369" />
+                </figure>
+              </a>
+              <div class="post-box-minimal-caption">
+                <div class="post-box-minimal-caption-inner">
+                  <h5 class="post-box-minimal-title"><a href="#">10个关于我们这个时代最昂贵艺术家的生活事实</a></h5>
+                  <div class="post-box-minimal-meta-bottom">
+                    <time class="post-box-icon mdi mdi-clock" datetime="2024">January 22, 2024</time>
+                    <p><a class="post-box-icon mdi mdi-thumb-up-outline" href="#">40</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Footer-->
+      <div class="footer">
+        <div class="wapper clearfix" style="padding: 20px 0;">
+          <div class="footer-left">
+            <ul style="text-align: center;">
+              <li><a href="http://shanwentou.com.cn/enter/scg/scg.html" target="_blank">集团简介</a></li>
+              <li><a href="http://shanwentou.com.cn/enter/organization/organization.html" target="_blank">组织架构</a></li>
+              <li><a href="http://shanwentou.com.cn/enter/honor/honor.html" target="_blank">荣誉展示</a></li>
+              <li><a href="http://shanwentou.com.cn/enter/contact/contact.html" target="_blank">联系我们</a></li>
+              <li><a href="http://shanwentou.com.cn/installation.html" target="_blank">人才招聘</a></li>
+            </ul>
+            <p style="text-align: center; margin: 20px 0;"><a href="https://beian.miit.gov.cn"
+                target="_blank">陕ICP备14004739号-1</a>
+            </p>
+            <a style="text-align: center;" href="http://shanwentou.com.cn/index.html" target="_blank">陕西文化产业投资控股（集团）有限公司
+            </a>
+          </div>
+          <div class="footer-right">
+            <img src="http://shanwentou.com.cn/theme/main/images/wechat.jpg" alt="陕西文化产业投资控股（集团）有限公司"
+              style="width: 120px;" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <!-- Global Mailform Output-->
+  <div class="snackbars" id="form-output-global"> </div>
+  <!-- Javascript-->
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"> </script>
+</body>
+
+</html>
