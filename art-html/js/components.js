@@ -70,74 +70,12 @@ function loadHeader() {
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-gallery.html">Grid
                             Gallery</a>
                         </li>
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="masonry-gallery.html">Masonry
-                            Gallery</a>
-                        </li>
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link"
                             href="full-grid-gallery.html">Full-Width Grid Gallery</a>
                         </li>
                       </ul>
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
-                    </li>
-                    <li class="rd-nav-item active"><a class="rd-nav-link" href="#">Pages</a>
-                      <ul class="rd-menu rd-navbar-megamenu">
-                        <li class="rd-megamenu-item">
-                          <h6 class="rd-megamenu-title">Pages 1</h6>
-                          <ul class="rd-megamenu-list">
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                href="our-artists.html">Our Artists</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="team-mp.html">Team
-                                MP</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                href="testimonials.html">Testimonials</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="404-page.html">404
-                                Page</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="503-page.html">503
-                                Page</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                href="maintenance.html">Maintenance</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="faq.html">FAQ</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li class="rd-megamenu-item">
-                          <h6 class="rd-megamenu-title">Pages 2</h6>
-                          <ul class="rd-megamenu-list">
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                href="privacy-policy.html">Privacy policy</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="site-map.html">Site
-                                map</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                href="search-results.html">Search Results</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                href="careers.html">Careers</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="blog.html">Blog</a>
-                            </li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                href="blog-post.html">Blog Post</a></li>
-                          </ul>
-                        </li>
-                        <li class="rd-megamenu-item">
-                          <h6 class="rd-megamenu-title">Elements</h6>
-                          <ul class="rd-megamenu-list">
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                href="buttons.html">Buttons</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="grid.html">Grid</a>
-                            </li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                href="forms.html">Forms</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                href="progress-bars.html">Progress bars</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                href="tabs-and-accordions.html">Tabs and accordions</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                href="tables.html">Tables</a></li>
-                            <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                href="typography.html">Typography</a></li>
-                          </ul>
-                        </li>
-                      </ul>
                     </li>
                   </ul>
                 </div>

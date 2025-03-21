@@ -15757,8 +15757,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	visibility: visible;
 }
 
+#lg-share,
+#lg-actual-size {
+	display: none;
+}
+
 .lg-outer.lg-dropdown-active #lg-share {
 	color: #FFF;
+	display: none;
 }
 
 .lg-outer .lg-dropdown {
