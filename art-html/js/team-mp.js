@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('#team-mp-name').textContent = `${name}`;
     document.querySelector('#team-mp-title').textContent = `${title}`;
     document.querySelector('#team-mp-img').src = type == 'lsn' ?
-        'https://bkimg.cdn.bcebos.com/pic/7af40ad162d9f2d3a09d37bca0ec8a136227ccd1?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080'
-        : 'https://bkimg.cdn.bcebos.com/pic/78310a55b319ebc405b801738a26cffc1f171613?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080';
+        'images/lsn/lsn.webp'
+        : 'images/wgn/wgn.webp';
     document.querySelector('#team-mp-desc').innerHTML = type == 'lsn' ?
         `<p style="text-indent: 2em;">李世南(1940－ )浙江绍兴人，别号阿难，斋号一叶庐。
 中国美术家协会会员，国家一级美术师，中国国家画院特聘研究员，陕西国画院名誉院长。作品入选第六、七届全国美术作品展览及“美术批评家93年度提名画展”、文化部“中华世纪之光”中国画提名展等国内外重要展览。中国美术馆收藏作品《开採光明的人》被选入百年中国画展。
