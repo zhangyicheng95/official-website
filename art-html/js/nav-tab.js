@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+    document.title = '李世南艺术馆';
     const header = document.querySelector('#page-header');
     header.innerHTML = `
     <div class="rd-navbar-top-panel-inner">
