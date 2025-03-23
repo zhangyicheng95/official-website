@@ -356,6 +356,59 @@ hr {
 	border-top: 1px solid #ebebeb;
 }
 
+.selfImgStyle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: rgba(144, 144, 144, .2);
+
+	img {
+		/* width: 100% !important; */
+		height: 100% !important;
+	}
+}
+
+.selfImgStyleWidth {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: rgba(144, 144, 144, .2);
+
+	img {
+		width: auto !important;
+		height: 100% !important;
+	}
+}
+
+.selfImgStyleHeight {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: rgba(144, 144, 144, .2);
+
+	img {
+		height: auto !important;
+		width: 100% !important;
+	}
+}
+
+.selfImgStyle2 {
+	width: 100%;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	overflow: hidden;
+	background-color: rgba(144, 144, 144, .2);
+
+	img {
+		height: 100% !important;
+		/* height: 278px !important; */
+	}
+}
+
 .divider {
 	display: inline-block;
 	margin-bottom: 0;
@@ -12226,7 +12279,7 @@ html:not(.lt-ie10) .not-animated {
  */
 .owl-dots {
 	text-align: center;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 }
 
 .owl-dot {

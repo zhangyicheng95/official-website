@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('#team-mp-img').src = type == 'lsn' ?
         'images/lsn/lsn.webp'
         : 'images/wgn/wgn.webp';
+    document.querySelector('#team-mp-email').innerHTML = type == 'lsn' ?
+        'lishinan@test.com'
+        : 'wuguannan@test.com';
     document.querySelector('#team-mp-desc').innerHTML = type == 'lsn' ?
         `<p style="text-indent: 2em;">李世南(1940－ )浙江绍兴人，别号阿难，斋号一叶庐。
 中国美术家协会会员，国家一级美术师，中国国家画院特聘研究员，陕西国画院名誉院长。作品入选第六、七届全国美术作品展览及“美术批评家93年度提名画展”、文化部“中华世纪之光”中国画提名展等国内外重要展览。中国美术馆收藏作品《开採光明的人》被选入百年中国画展。

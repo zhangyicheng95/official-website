@@ -4,7 +4,7 @@ function showModal(e, type) {
     $('#staticBackdrop').modal('show');
     setTimeout(() => {
         document.getElementById('self-official-img').src = type == 'wechat' ?
-            'http://shanwentou.com.cn/theme/main/images/wechat.jpg' :
-            'http://shanwentou.com.cn/theme/main/images/wb.jpg';
+            'images/wentou/wentou-wechat.jpg' :
+            'images/wentou/wentou-wb.jpg';
     }, 100);
 };

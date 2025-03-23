@@ -24,7 +24,7 @@ function loadHeader() {
               <div class="center-side">
                 <!-- RD Navbar Brand-->
                 <div class="rd-navbar-brand fullwidth-brand"><a class="brand-name" href="index.html"><img
-                      src="images/logo-default-137x56.png" alt="" width="137" height="56" /></a></div>
+                      src="images/logo.png" alt="" style="width: 237px; height: 76px;" /></a></div>
               </div>
               <div class="right-side">
                 <!-- Contact Info-->
@@ -47,7 +47,7 @@ function loadHeader() {
                 data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></button>
               <!-- RD Navbar Brand-->
               <div class="rd-navbar-brand mobile-brand"><a class="brand-name" href="index.html"><img
-                    src="images/logo-default-137x56.png" alt="" width="137" height="56" /></a></div>
+                    src="images/logo.png" alt="" style="width: 237px; height: 76px;" /></a></div>
             </div>
             <div class="rd-navbar-aside-right">
               <div class="rd-navbar-nav-wrap">
@@ -133,7 +133,7 @@ function loadFooter() {
                             <div class="group">
                                 <dl class="list-desc">
                                     <dt>工作日: </dt>
-                                    <dd><span>8:00–20:00</span></dd>
+                                    <dd><span>9:00–18:00</span></dd>
                                 </dl>
                                 <dl class="list-desc">
                                     <dt>周末: </dt>

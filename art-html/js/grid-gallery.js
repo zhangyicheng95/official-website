@@ -99,8 +99,8 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('#gallery-content').innerHTML = gallery.map(item => {
         return `<div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category ${item.type}">
                 <a class="thumbnail-classic" href="${item.img}" data-lightgallery="item">
-                    <figure>
-                        <img src="${item.img}" alt="" style="width: 370px; height: 578px;" />
+                    <figure class="${item.type == '1' ? 'selfImgStyleWidth' : 'selfImgStyleHeight'}" style="width: 370px; height: 578px;">
+                        <img src="${item.img}" alt="" />
                     </figure>
                     <div class="caption">
                     <p class="caption-title">${item.title}</p>

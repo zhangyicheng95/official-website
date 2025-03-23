@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+<script src="js/fetch.js"></script>
 <script src="js/headScript.js"> </script>
 
 <body>
@@ -36,8 +37,8 @@
     aria-labelledby="staticBackdropLabel" aria-hidden="true" data-bs-dismiss="modal">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-        <img id="self-official-img" src="http://shanwentou.com.cn/theme/main/images/wechat.jpg"
-          alt="陕西文化产业投资控股（集团）有限公司官方微信" style="width: 100%;" />
+        <img id="self-official-img" src="images/wentou/wentou-wechat.jpg" alt="陕西文化产业投资控股（集团）有限公司官方微信"
+          style="width: 100%;" />
       </div>
     </div>
   </div>
@@ -54,7 +55,7 @@
           data-xxl-layout="rd-navbar-fullwidth" data-lg-device-layout="rd-navbar-fixed"
           data-xl-device-layout="rd-navbar-fullwidth" data-md-stick-up-offset="90px" data-lg-stick-up-offset="150px"
           data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
-          <div class="rd-navbar-top-panel rd-navbar-collapse">
+          <div class="rd-navbar-top-panel rd-navbar-collapse" style="padding: 12px 0;">
             <div class="rd-navbar-top-panel-inner">
               <div class="left-side">
                 <div class="group d-flex"><span class="fst-italicFollow">联系:</span>
@@ -71,7 +72,7 @@
               <div class="center-side">
                 <!-- RD Navbar Brand-->
                 <div class="rd-navbar-brand fullwidth-brand"><a class="brand-name" href="index.html"><img
-                      src="images/logo-default-137x56.png" alt="" width="137" height="56" /></a></div>
+                      src="images/logo.png" alt="" style="width: 237px; height: 76px;" /></a></div>
               </div>
               <div class="right-side">
                 <!-- Contact Info-->
@@ -94,7 +95,7 @@
                 data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></button>
               <!-- RD Navbar Brand-->
               <div class="rd-navbar-brand mobile-brand"><a class="brand-name" href="index.html"><img
-                    src="images/logo-default-137x56.png" alt="" width="137" height="56" /></a></div>
+                    src="images/logo.png" alt="" style="width: 237px; height: 76px;" /></a></div>
             </div>
             <div class="rd-navbar-aside-right">
               <div class="rd-navbar-nav-wrap">
@@ -140,11 +141,11 @@
               <div class="section-layout-main">
                 <div class="section-main-content">
                   <div class="container text-md-start">
-                    <h1>艺术展馆</h1>
+                    <h1>中国画瓷艺术研究中心</h1>
                     <div class="slider-subtitle-group">
                       <div class="decoration-line"></div>
-                      <h4>展示最好的作品</h4>
-                      <h3>现代艺术</h3>
+                      <h4>传承中国画瓷经典</h4>
+                      <h3>大写意作品/中国画瓷/长安画派</h3>
                     </div><a class="button button-effect-ujarak button-lg button-primary-2 button-square"
                       href="#"><span>了解更多</span></a>
                   </div>
@@ -172,17 +173,21 @@
               <div class="owl-carousel owl-carousel-stagePadding" data-items="1" data-md-items="2" data-xxl-items="3"
                 data-dots="false" data-nav="true" data-stage-padding="0" data-xl-stage-padding="100"
                 data-xxl-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="false">
-                <div class="post-box post-box-minimal post-box-horizontal wow fadeInDown" data-wow-delay=".1s">
-                  <img src="images/lsn/youxiu/youxiu01.jpg" alt="" style="width:460px; height:369px" />
+                <div class="post-box post-box-minimal post-box-horizontal wow fadeInDown selfImgStyle"
+                  style="width:460px; height:379px" data-wow-delay=".1s">
+                  <img src="images/lsn/youxiu/youxiu01.jpg" alt="" />
                 </div>
-                <div class="post-box post-box-minimal post-box-horizontal wow fadeInUp" data-wow-delay=".25s">
-                  <img src="images/lsn/youxiu/youxiu02.jpg" alt="" style="width:460px; height:369px" />
+                <div class="post-box post-box-minimal post-box-horizontal wow fadeInUp selfImgStyle"
+                  style="width:460px; height:379px" data-wow-delay=".25s">
+                  <img src="images/lsn/youxiu/youxiu02.jpg" alt="" />
                 </div>
-                <div class="post-box post-box-minimal post-box-horizontal wow fadeInDown" data-wow-delay=".3s">
-                  <img src="images/wgn/youxiu/youxiu01.jpg" alt="" style="width:460px; height:369px" />
+                <div class="post-box post-box-minimal post-box-horizontal wow fadeInDown selfImgStyle"
+                  style="width:460px; height:379px" data-wow-delay=".3s">
+                  <img src="images/wgn/youxiu/youxiu01.jpg" alt="" />
                 </div>
-                <div class="post-box post-box-minimal post-box-horizontal wow fadeInDown" data-wow-delay=".3s">
-                  <img src="images/wgn/youxiu/youxiu02.jpg" alt="" style="width:460px; height:369px" />
+                <div class="post-box post-box-minimal post-box-horizontal wow fadeInDown selfImgStyle"
+                  style="width:460px; height:379px" data-wow-delay=".3s">
+                  <img src="images/wgn/youxiu/youxiu02.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -227,34 +232,37 @@
               <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInLeft" data-filter="Category 1"
                 data-wow-delay=".1s"><a class="portfolio-item thumbnail-classic" href="images/lsn/huazuo/huazuo01.jpg"
                   data-lightgallery="item">
-                  <figure><img src="images/lsn/huazuo/huazuo01.jpg" alt="" style="width:420px; height:584px" />
+                  <figure class="selfImgStyle"><img src="images/lsn/huazuo/huazuo01.jpg" alt=""
+                      style="width:420px; height:862px !important" />
                   </figure>
                   <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span
                       class="icon mdi-eye">220</span></div>
                 </a>
               </div>
               <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInDown" data-filter="Category 1"
-                data-wow-delay=".2s"><a class="portfolio-item thumbnail-classic" href="images/lsn/ciqi/ciqi01.jpg"
-                  data-lightgallery="item">
-                  <figure><img src="images/lsn/ciqi/ciqi01.jpg" alt="" style="width:420px; height:278px" />
-                  </figure>
+                data-wow-delay=".2s"><a class="portfolio-item thumbnail-classic"
+                  href="http://8.140.245.26:8081/ciqi/#/home" target="_blank">
+                  <div class="selfImgStyle"><img src="images/lsn/ciqi/ciqi01.jpg" alt=""
+                      style="width:420px; height:554px !important" /></div>
                   <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span
                       class="icon mdi-eye">220</span></div>
                 </a>
               </div>
               <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInDown" data-filter="Category 1"
                 data-wow-delay=".4s"><a class="portfolio-item thumbnail-classic" href="images/wgn/huazuo/huazuo01.jpg"
-                  data-lightgallery="item">
-                  <figure><img src="images/wgn/huazuo/huazuo01.jpg" alt="" style="width:420px; height:584px" />
+                  target="_blank" data-lightgallery="item">
+                  <figure class="selfImgStyle"><img src="images/wgn/huazuo/huazuo01.jpg" alt=""
+                      style="width:420px; height:862px !important" />
                   </figure>
                   <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span
                       class="icon mdi-eye">220</span></div>
                 </a>
               </div>
               <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInRight" data-filter="Category 1"
-                data-wow-delay=".5s"><a class="portfolio-item thumbnail-classic" href="images/wgn/ciqi/ciqi01.jpg"
-                  data-lightgallery="item">
-                  <figure><img src="images/wgn/ciqi/ciqi01.jpg" alt="" style="width:420px; height:278px" />
+                data-wow-delay=".5s"><a class="portfolio-item thumbnail-classic"
+                  href="http://8.140.245.26:8081/ciqi/#/home" target="_blank">
+                  <figure class="selfImgStyle"><img src="images/wgn/ciqi/ciqi01.jpg" alt=""
+                      style="width:420px; height:554px !important" />
                   </figure>
                   <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span
                       class="icon mdi-eye">220</span></div>
@@ -263,7 +271,8 @@
               <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInUp" data-filter="Category 1"
                 data-wow-delay=".3s"><a class="portfolio-item thumbnail-classic" href="images/lsn/zishahu/zishahu01.jpg"
                   data-lightgallery="item">
-                  <figure><img src="images/lsn/zishahu/zishahu01.jpg" alt="" style="width:420px; height:278px" />
+                  <figure><img src="images/lsn/zishahu/zishahu01.jpg" alt=""
+                      style="width:420px; height:278px !important" />
                   </figure>
                   <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span
                       class="icon mdi-eye">220</span></div>
@@ -272,7 +281,8 @@
               <div class="col-12 col-md-6 col-lg-3 isotope-item wow fadeInRight" data-filter="Category 1"
                 data-wow-delay=".6s"><a class="portfolio-item thumbnail-classic" href="images/wgn/zishahu/zishahu01.jpg"
                   data-lightgallery="item">
-                  <figure><img src="images/wgn/zishahu/zishahu01.jpg" alt="" style="width:420px; height:278px" />
+                  <figure class="selfImgStyle"><img src="images/wgn/zishahu/zishahu01.jpg" alt=""
+                      style="width:420px; height:278px !important" />
                   </figure>
                   <div class="caption"><span class="icon mdi-thumb-up-outline">346</span><span
                       class="icon mdi-eye">220</span></div>
@@ -298,7 +308,7 @@
                 </div>
                 <hr>
                 <!-- Tab panes-->
-                <div class="tab-content" style="height: 460px; overflow-y: auto;">
+                <div class="tab-content" style="height: 495px; overflow-y: auto;">
                   <div class="tab-pane fadeInDown animated active" id="tabs-2-1" style="padding: 40px 64px;">
                     <div class="services-single-box">
                       <div class="services-single-header">
@@ -620,7 +630,7 @@
               </div>
             </div>
             <div class="col-xl-6 wow fadeInDown" data-wow-delay=".3s">
-              <h3>客户评价</h3>
+              <h3>大家评语</h3>
               <hr>
               <div class="quote-carousel-wrap-vertical">
                 <!-- Slick Carousel-->
@@ -630,64 +640,72 @@
                   data-lg-vertical="true">
                   <div class="item">
                     <div class="quote-box quote-box-mod-1">
-                      <div class="quote-box-header"><img src="images/quote-img-01-49x45.png" alt="" width="49"
-                          height="45" />
+                      <div class="quote-box-header">
                         <h4 class="quote-box-title"><a class="link link-gray-darker" href="#">伟大的氛围和许多令人印象深刻的绘画</a></h4>
                       </div>
                       <div class="quote-box-body">
-                        <q>我的朋友是一位艺术鉴赏家，所以她带我来了这里，我感到很惊讶。我看到了这么多不同类型的美丽艺术，所以我感到很兴奋，我觉得艺术画廊很棒。</q>
+                        <q>窑火千年续古魂，丹青新意入冰纹。
+                          匠心岂止承周鼎，彩釉犹能绘楚云。
+                          素胚暗涌山河气，釉色深藏日月曛。
+                          莫道长安风骨尽，青花影里又逢君。</q>
                       </div>
                       <div class="quote-box-footer">
                         <div class="quote-box-cite">
-                          <cite>程娜</cite><span>程序员</span>
+                          <cite>杜甫</cite><span>诗人</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="item">
                     <div class="quote-box quote-box-mod-1">
-                      <div class="quote-box-header"><img src="images/quote-img-01-49x45.png" alt="" width="49"
-                          height="45" />
+                      <div class="quote-box-header">
                         <h4 class="quote-box-title"><a class="link link-gray-darker" href="#">最好的艺术画廊</a></h4>
                       </div>
                       <div class="quote-box-body">
-                        <q>我一直在寻找艺术一段时间了，上个月我去你的画廊了。这是一个很棒的空间，很容易四处走动，一些艺术家的作品非常棒。我很幸运，今天我买了四件作品。我推荐每个人都来这里。这就是我喜欢你画廊的地方。</q>
+                        <q>窑火千年续古魂，丹青新意入冰纹。
+                          匠心岂止承周鼎，彩釉犹能绘楚云。
+                          素胚暗涌山河气，釉色深藏日月曛。
+                          莫道长安风骨尽，青花影里又逢君。</q>
                       </div>
                       <div class="quote-box-footer">
                         <div class="quote-box-cite">
-                          <cite>张思</cite><span>顶级模特</span>
+                          <cite>张仲景</cite><span>医生</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="item">
                     <div class="quote-box quote-box-mod-1">
-                      <div class="quote-box-header"><img src="images/quote-img-01-49x45.png" alt="" width="49"
-                          height="45" />
+                      <div class="quote-box-header">
                         <h4 class="quote-box-title"><a class="link link-gray-darker" href="#">您是一个很棒的艺术家</a></h4>
                       </div>
                       <div class="quote-box-body">
-                        <q>我的一个亲戚邀请我去你的最近一次展览，我必须说我很高兴看到很多由年轻而有抱负的艺术家完成的令人惊叹的绘画。我认为每个真正的艺术爱好者都应该至少一次访问你的画廊。</q>
+                        <q>窑火千年续古魂，丹青新意入冰纹。
+                          匠心岂止承周鼎，彩釉犹能绘楚云。
+                          素胚暗涌山河气，釉色深藏日月曛。
+                          莫道长安风骨尽，青花影里又逢君。</q>
                       </div>
                       <div class="quote-box-footer">
                         <div class="quote-box-cite">
-                          <cite>玛丽</cite><span>学生</span>
+                          <cite>李白</cite><span>诗人</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="item">
                     <div class="quote-box quote-box-mod-1">
-                      <div class="quote-box-header"><img src="images/quote-img-01-49x45.png" alt="" width="49"
-                          height="45" />
+                      <div class="quote-box-header">
                         <h4 class="quote-box-title"><a class="link link-gray-darker" href="#">各种各样的艺术风格和绘画</a></h4>
                       </div>
                       <div class="quote-box-body">
-                        <q>我非常喜欢你的展览；有很多不同类型的绘画，而且价格也很合理。看到这么多不同类型的艺术真是令人兴奋，而且每个人都能找到适合自己的东西。我以前从来没有去过画廊，但参观了你的画廊后，我深深爱上了艺术。</q>
+                        <q>窑火千年续古魂，丹青新意入冰纹。
+                          匠心岂止承周鼎，彩釉犹能绘楚云。
+                          素胚暗涌山河气，釉色深藏日月曛。
+                          莫道长安风骨尽，青花影里又逢君。</q>
                       </div>
                       <div class="quote-box-footer">
                         <div class="quote-box-cite">
-                          <cite>李亚斯</cite><span>记者</span>
+                          <cite>白居易</cite><span>诗人</span>
                         </div>
                       </div>
                     </div>
@@ -700,19 +718,27 @@
                   data-lg-items="3" data-xl-items="3" data-slide-to-scroll="1" data-vertical="false"
                   data-xs-vertical="false" data-sm-vertical="true" data-md-vertical="true" data-lg-vertical="true">
                   <div class="item">
-                    <figure><img class="rounded-circle" src="images/user/cn.jpg" alt="" width="111" height="111" />
+                    <figure>
+                      <img class="rounded-circle" src="images/user/use01.jpg" alt=""
+                        style="width: 111px; height: 111px;" />
                     </figure>
                   </div>
                   <div class="item">
-                    <figure><img class="rounded-circle" src="images/user/zs.jpg" alt="" width="111" height="111" />
+                    <figure>
+                      <img class="rounded-circle" src="images/user/use02.jpg" alt=""
+                        style="width: 111px; height: 111px;" />
                     </figure>
                   </div>
                   <div class="item">
-                    <figure><img class="rounded-circle" src="images/user/ml.jpg" alt="" width="111" height="111" />
+                    <figure>
+                      <img class="rounded-circle" src="images/user/use03.jpg" alt=""
+                        style="width: 111px; height: 111px;" />
                     </figure>
                   </div>
                   <div class="item">
-                    <figure><img class="rounded-circle" src="images/user/lys.jpeg" alt="" width="111" height="111" />
+                    <figure>
+                      <img class="rounded-circle" src="images/user/use04.jpg" alt=""
+                        style="width: 111px; height: 111px;" />
                     </figure>
                   </div>
                 </div>
@@ -732,15 +758,15 @@
             data-xxl-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="false">
             <div class="post-box post-box-minimal post-box-horizontal wow fadeInDown" data-wow-delay=".1s">
               <a class="post-box-image" href="https://www.sohu.com/a/792182115_121124809" target="_blank">
-                <figure>
-                  <img src="images/home-blog-01-460x369.jpg" alt="" width="460" height="369" />
+                <figure class="selfImgStyle2" style="height: 278px;">
+                  <img src="https://q7.itc.cn/q_70/images03/20240710/2692e522c9174316b46b4445c1705fab.png" />
                 </figure>
               </a>
               <div class="post-box-minimal-caption">
                 <div class="post-box-minimal-caption-inner">
                   <h5 class="post-box-minimal-title">吴冠南30幅作品欣赏：气势磅礴，笔意放逐</h5>
                   <div class="post-box-minimal-meta-bottom">
-                    <time class="post-box-icon mdi mdi-clock" datetime="2024">2024-07-10 13:30</time>
+                    <time class="post-box-icon mdi mdi-clock" datetime="2024">2025-03-10 13:30</time>
                     <p class="post-box-icon mdi mdi-thumb-up-outline">78</p>
                   </div>
                 </div>
@@ -748,15 +774,16 @@
             </div>
             <div class="post-box post-box-minimal post-box-horizontal wow fadeInUp" data-wow-delay=".25s">
               <a class="post-box-image" href="https://www.sohu.com/a/208434090_227653" target="_blank">
-                <figure>
-                  <img src="images/home-blog-02-460x369.jpg" alt="" width="460" height="369" />
+                <figure class="selfImgStyle2" style="height: 278px;">
+                  <img
+                    src="http://5b0988e595225.cdn.sohucs.com/images/20171205/2a38b92681e74d19a48dd8cb0eec3b68.jpeg" />
                 </figure>
               </a>
               <div class="post-box-minimal-caption">
                 <div class="post-box-minimal-caption-inner">
                   <h5 class="post-box-minimal-title">见到吴冠南先生书法，仍感觉心里一颤</h5>
                   <div class="post-box-minimal-meta-bottom">
-                    <time class="post-box-icon mdi mdi-clock" datetime="2017">2017-12-04 17:24</time>
+                    <time class="post-box-icon mdi mdi-clock" datetime="2017">2025-2-25 17:24</time>
                     <p class="post-box-icon mdi mdi-thumb-up-outline">56</p>
                   </div>
                 </div>
@@ -764,15 +791,15 @@
             </div>
             <div class="post-box post-box-minimal post-box-horizontal wow fadeInDown" data-wow-delay=".3s">
               <a class="post-box-image" href="https://www.mei-shu.com/art/20190303/184337.html" target="_blank">
-                <figure>
-                  <img src="images/home-blog-03-460x369.jpg" alt="" width="460" height="369" />
+                <figure class="selfImgStyle2" style="height: 278px;">
+                  <img src="http://img02.img.mei-shu.net/Uploads/zhonghe/0321/3uscvk4y40b.jpg" alt="" />
                 </figure>
               </a>
               <div class="post-box-minimal-caption">
                 <div class="post-box-minimal-caption-inner">
                   <h5 class="post-box-minimal-title">李世南：独创、综合与关怀 | 徐华水墨专栏 | 美术长廊</h5>
                   <div class="post-box-minimal-meta-bottom">
-                    <time class="post-box-icon mdi mdi-clock" datetime="2019">2019-03-03 21:18</time>
+                    <time class="post-box-icon mdi mdi-clock" datetime="2019">2025-03-03 21:18</time>
                     <p class="post-box-icon mdi mdi-thumb-up-outline">40</p>
                   </div>
                 </div>
@@ -799,8 +826,7 @@
             </a>
           </div>
           <div class="footer-right">
-            <img src="http://shanwentou.com.cn/theme/main/images/wechat.jpg" alt="陕西文化产业投资控股（集团）有限公司"
-              style="width: 120px;" />
+            <img src="images/wentou/wentou-wechat.jpg" alt="陕西文化产业投资控股（集团）有限公司" style="width: 120px;" />
           </div>
         </div>
       </div>
