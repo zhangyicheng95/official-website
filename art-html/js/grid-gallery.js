@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const type = window.location.search.split('=')[1];
     const name = type == 'lsn' ? '李世南' : '吴冠南';
-    document.querySelector('#gallery-title').textContent = `${name}画廊`;
-    document.querySelector('#gallery-sub-title').textContent = `${name}画廊`;
+    document.querySelector('#gallery-title').textContent = `${name}作品展示`;
+    document.querySelector('#gallery-sub-title').textContent = `${name}作品展示`;
     const gallery = type == 'lsn' ? [
         {
             img: 'images/lsn/huazuo/huazuo01.jpg',
