@@ -27,52 +27,64 @@ document.addEventListener('DOMContentLoaded', function () {
         [
             {
                 img: 'images/lsn/youxiu/youxiu01.jpg',
+                thumb: 'images/lsn/youxiu/youxiu01-yasuo.jpg',
                 title: 'Photo #1'
             },
             {
                 img: 'images/lsn/youxiu/youxiu02.jpg',
+                thumb: 'images/lsn/youxiu/youxiu02-yasuo.jpg',
                 title: 'Photo #2'
             },
             {
                 img: 'images/lsn/youxiu/youxiu03.jpg',
+                thumb: 'images/lsn/youxiu/youxiu03-yasuo.jpg',
                 title: 'Photo #3'
             },
             {
                 img: 'images/lsn/youxiu/youxiu04.jpg',
+                thumb: 'images/lsn/youxiu/youxiu04-yasuo.jpg',
                 title: 'Photo #4'
             },
             {
                 img: 'images/lsn/youxiu/youxiu05.jpg',
+                thumb: 'images/lsn/youxiu/youxiu05-yasuo.jpg',
                 title: 'Photo #5'
             },
             {
                 img: 'images/lsn/youxiu/youxiu06.jpg',
+                thumb: 'images/lsn/youxiu/youxiu06-yasuo.jpg',
                 title: 'Photo #6'
             }
         ] :
         [
             {
                 img: 'images/wgn/youxiu/youxiu01.jpg',
+                thumb: 'images/wgn/youxiu/youxiu01-yasuo.jpg',
                 title: 'Photo #1'
             },
             {
                 img: 'images/wgn/youxiu/youxiu02.jpg',
+                thumb: 'images/wgn/youxiu/youxiu02-yasuo.jpg',
                 title: 'Photo #2'
             },
             {
                 img: 'images/wgn/youxiu/youxiu03.jpg',
+                thumb: 'images/wgn/youxiu/youxiu03-yasuo.jpg',
                 title: 'Photo #3'
             },
             {
                 img: 'images/wgn/youxiu/youxiu04.jpg',
+                thumb: 'images/wgn/youxiu/youxiu04-yasuo.jpg',
                 title: 'Photo #4'
             },
             {
                 img: 'images/wgn/youxiu/youxiu05.jpg',
+                thumb: 'images/wgn/youxiu/youxiu05-yasuo.jpg',
                 title: 'Photo #5'
             },
             {
                 img: 'images/wgn/youxiu/youxiu06.jpg',
+                thumb: 'images/wgn/youxiu/youxiu06-yasuo.jpg',
                 title: 'Photo #6'
             }
         ]
@@ -85,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     href="${item.img}"
                     // style="width: 295px; height: 450px;"
                     data-lightgallery="item">
-                    <img src="${item.img}" alt="" style="width: 295px; height: 450px;"  />
+                    <img src="${item.thumb}" alt="" style="width: 295px; height: 450px;"  />
                 </a>
                 </div>
             </div>
