@@ -18,7 +18,6 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <script src="js/headScript.js"> </script>
-<script src="js/team-mp.js"> </script>
 
 <body>
   <div class="preloader">
@@ -167,12 +166,38 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h3>著作与出版物</h3>
+              <h3>部分作品展示</h3>
               <p id="team-mp-desc-3"></p>
             </div>
           </div>
           <div class="row row-30" data-lightgallery="group" id="team-mp-gallery">
 
+          </div>
+        </div>
+      </section>
+      <section class="section section-lg bg-default text-center">
+        <div class="container">
+          <div class="row row-50">
+            <div class="col-12">
+              <h2>大家评语</h2>
+            </div>
+            <div class="col-sm-12">
+              <div class="box-outline box-outline-fullwidth box-outline__mod-1">
+                <div class="quote-carousel-wrap">
+                  <!-- Slick Carousel-->
+                  <div class="slick-slider carousel-parent" data-arrows="false" data-loop="true" data-dots="false"
+                    data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel"
+                    id="team-mp-comment">
+                  </div>
+                  <div class="slick-slider" id="child-carousel" data-for=".carousel-parent" data-arrows="false"
+                    data-loop="true" data-dots="false" data-swipe="true" data-center-mode="true"
+                    data-sm-center-mode="true" data-md-center-mode="true" data-lg-center-mode="true"
+                    data-center-padding="0.50" data-items="1" data-sm-items="1" data-md-items="3" data-lg-items="3"
+                    data-xl-items="3" data-slide-to-scroll="1">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -189,6 +214,7 @@
   <script src="js/script.js"> </script>
   <script src="js/nav-tab.js"></script>
   <script src="js/footer.js"></script>
+  <script src="js/team-mp.js"> </script>
 </body>
 
 </html>

@@ -4307,6 +4307,7 @@ body {
 	text-align: left;
 	padding: 25px 15px;
 	box-shadow: 0 1px 16px rgba(0, 0, 0, 0.21);
+	position: absolute;
 }
 
 .quote-box-title {
@@ -4316,6 +4317,7 @@ body {
 	font-weight: 700;
 	margin-top: 10px;
 	letter-spacing: .05em;
+	color: #af9f7b;
 }
 
 .quote-box-body {
@@ -4361,7 +4363,7 @@ body {
 		align-items: center;
 	}
 
-	.quote-box-footer:before {
+	/* .quote-box-footer:before {
 		content: "";
 		display: inline-block;
 		width: 62px;
@@ -4370,7 +4372,7 @@ body {
 		margin-right: 27px;
 		margin-top: 8px;
 		float: left;
-	}
+	} */
 }
 
 @media (min-width: 1200px) {
@@ -4398,6 +4400,16 @@ body {
 
 .quote-box-header img {
 	flex-shrink: 0;
+}
+
+.quote-box-header:before {
+	position: absolute;
+	/* top: 0; */
+}
+
+.quote-box-header:before {
+	content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAkCAYAAAD7PHgWAAADl0lEQVRYha3YW4hVVRzH8c/scWwyowkt7UKBEN3QBiHKLMlB6Dp5ssiigc6D0YsFUdTDTERweoukwkqUZh4qChSnGxGBWkFmlo0kOdHVsqIbVKCNlk4PywOnPWufy97n93Lg99/rd77nstZ/rdWxeXhQAfVgNrqxJ09AqVyZ4o2ODPVgFrqn5chchFXoxyk1fkcewBqoi3EnbsCcqt8K4EKswZIiIBGwBcdy+2L1pImMTjyCndoL14lB7JIBR+NvcCZexrWR2iQ+xgf4qUW4GXgBpYz6J9iOH+oBzsCbuDzl/421ws/yY4tg1dzXsTTlH8KzeKxUruyvmlmAndgYgduJ2/FFDjDCRHoxArcLA6VyZW96QBbgo7gm5b2GlcI3mFcPY3nKewsrSuXKwdiAGGAfHkh523AT/ikAtxgPpbztWF4qVw5lDUrP4m6s9/817WfcXBCu61hu7fv9hhvrwcUA78W8lLcavxeAq2acn/LuEz58XdUC9uDBVH0MmwqhhaUq3U/34vlmBtcC3oWTUvU1wnpXRKuEvlqrJ3G0mcFJzevqVO0IXimEFv7Ld6e8SWEJa0pVwGU4M1X7DH/mRgu6wtT/9JfCBGlKVcBbIrVvckLVamXEa6n7JMLP0B+pnZCHKKXrI15XKwGJMP1PjdR6MT0HVFXzcFbEn4/jmw1JcFlGbZapE6cVLcrwT8T9zYZ03lpacgcuyahfhbk4gOOEPtxsRxkQ2ltMS4VJeWB8bMv08bEtE+f19kVzOzYPD74hvt/L0i4MY10D2E1Y0ULup8dy15bKlcNVM8HpLYQQtv5PCV3m3DrPpZetRpqPx7FndGTowlrAk1sMquoCvIMzMuozc+aeg22jI0Nn09yZpJ7myO6pRZap2XhpdGSoI1G8114pTKa0/iqYeyn6E/xSMAhui3h/tCF3IMG+NgTFjqPftiF3cYLdbQg6LeKNtSF3boItbQiKbdvbkftvgh34vmDQdxFvN74qmLsvEXa2zxQMejviTQoLeqHc6jr4BPbXe7KOjmBDRm0dvs6ZO4n1VcCDwo1BnqPl08IhKKYJYdOQJ3dDqVwZq+0k7wrr2UQLIVs13jptF87V0ZuDDO3APUxtdZuEfdz7DQKOChc91+Fwg2fhVWFL916D5ybxHJaVypUJ4lcfY8Kl0UJcjYuEm9Rp+BUfYjM+bwKsVnuEBb1XuPdZIPTyLuFi4CNsLJUr47WD/gO+YL8CV43tgwAAAABJRU5ErkJggg==");
+	left: 18px;
 }
 
 .quote-center {

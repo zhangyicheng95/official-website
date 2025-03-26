@@ -78,16 +78,13 @@ document.addEventListener('DOMContentLoaded', function () {
         <li class="rd-nav-item"><a class="rd-nav-link" href="#">传播交流</a>
             <ul class="rd-menu rd-navbar-dropdown">
                 <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                    href="exhibition.html">艺术中心展览信息</a>
+                    href="exhibition.html">展览信息</a>
                 </li>
                 <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                    href="lecture-activity.html">讲座活动信息</a>
+                    href="lecture-activity.html">活动信息</a>
                 </li>
                 <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                    href="public-education.html">艺术公共教育功能</a>
-                </li>
-                <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                    href="learning-platform.html">交流学习平台</a>
+                    href="public-education.html">公共教育平台</a>
                 </li>
             </ul>
         </li>
